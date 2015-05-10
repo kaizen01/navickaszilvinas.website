@@ -1,0 +1,240 @@
+body {
+    background-color: #eee;
+    color: #000530;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #cf5c3f;
+}
+
+a:hover, a:active {
+    background-color: #cf5c3f;
+    color: #fff;
+    
+}
+
+.pagrindas {
+    /* centruota */
+    margin: 0 auto;
+    width: 70%;
+    /* jokiu float el */
+    clear: both;
+}
+
+.pgrAntraste img {
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.pgrAntraste nav {
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pgrAntraste nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.pgrAntraste nav ul li {
+    float: left;
+    display: inline;
+}
+
+
+
+.pgrAntraste nav a:link, .pgrAntraste nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px; 
+    height: 20px;
+}
+/*.pgrAntraste nav a:active, .pgrAntraste nav .active a:link*/
+.pgrAntraste nav a:hover{
+    background-color: #cf5c3f;
+    text-shadow: none;   
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pgrAntraste nav ul li a {
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.pgrTurinys {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.turinys {
+    width: 70%;
+    float: left;
+}
+
+.vrs-turinys {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.ap-turinys {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.info {
+    font-style: italic;
+    color: #999;
+    font-size: 90%;
+}
+
+.vrs-soninis {
+    width: 21%;
+    float: left;
+    background-color: #fff;
+    padding: 0% 3%;
+    margin: 1.5% 0 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+    
+.vid-soninis {
+    width: 21%;
+    float: left;
+    background-color: #fff;
+    padding: 0% 3%;
+    margin: 1.5% 0 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.ap-soninis {
+    width: 21%;
+    float: left;
+    background-color: #fff;
+    padding: 0% 3%;
+    margin: 1.5% 0 2% 3%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+    
+.pgrApacia {
+    width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #777;
+    margin: 2% 0;
+}
+
+.pgrApacia p {
+    width: 92%;
+    margin: 10px auto;
+    color: #fff;
+}
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    .pagrindas {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .pgrAntraste img {
+        width: 100%;
+
+    } 
+
+    .pgrAntraste nav {
+        height: 160px;
+    }
+
+    .pgrAntraste nav ul {
+        padding-left: 0;
+    }
+
+    .pgrAntraste nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pgrAntraste nav a:link, .pgrAntraste nav a:visited {
+        padding: 10px 25px; 
+        height: 20px;
+        display: block;
+    }
+    
+    
+    
+    .turinys {
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+    }
+
+    .vrs-turinys {
+        margin-top: 2%;
+    }
+
+    .ap-turinys {
+        margin-top: 2%;
+    }
+    
+    
+    .info {
+    font-style: italic;
+    color: #999;
+    font-size: 90%;
+    }
+
+    .vrs-soninis, .vid-soninis, .ap-soninis     {
+        width: 94%;
+        padding: 2% 3%;
+        margin: 1.5% 0 2% 0%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+ 
